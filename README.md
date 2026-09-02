@@ -54,7 +54,7 @@ Generating a BOM from CAD drawings is typically still a manual process — the d
 [Back to top](#enterprise-project)
 <a id="platform-overview"></a>
 ## 🌐 Platform Overview
-The BLKEXPORT was originally developed for the AEC (Architecture, Engineering & Construction) industry, where organisations commonly create BOMs (Bill of Material) from their drawings.
+BLKEXPORT was originally developed for the AEC (Architecture, Engineering & Construction) industry, where creating a Bill of Materials (BOM) directly from drawings is a common requirement.
 
 [Back to top](#enterprise-project)
 <a id="repository-contents"></a>
@@ -84,23 +84,15 @@ This repository includes:
 <a id="key-features"></a>
 ## ✨Key Features
 
-- Auto-detects PDF drawings in selected directory - shows [ 10 Drawing(s) ] count in title bar
-- Implements aggressive drawing filename validation prior to updated in Excel register See section 23.1 in the Auto Document Register Updater User Guide in this repository
-- Browse and link to Document Issue Register Excel file - Document Issue Register.xls or Document Issue Register.xlsx
-- Sets Document Issue Register Directory - P:\2019 Projects\...\_Standards\
-- Sets Mechanical / Electrical Drawings Directory containing PDFs
-- Auto-generates Document Issue Register PDF File Name - Document Issue Register 02-09-26.pdf
-- Sets Document Issue Register Output PDF Directory
-- Manages Recipients List - Client, Architect, Project Manager, Quantity Surveyor, Main Contractor, Mechanical Contractor, Electrical Contractor, Structural Engineer with Initials + Name fields
-- Issue Date picker - 02-09-26
-- Clear controls - Clear Recipients List, Clear Issue Register Fields, Clear Drawing Fields, Clear All Revisions Fields
-- Open in Excel / Open Drawing Directory / Open Register Directory / View Register PDF
-- Optional Contract Specification Documents with Revision - Electrical Contract Specification, Electrical Pricing Document, Mechanical Contract Specification, Mechanical Pricing Document
-- Optional Additional Supporting Documentation with Revision - Design Risk Assessment, Preliminary Inspection Plan, BCAR M&E Submittal Schedule
-- Issued For - Mandatory - Preliminary, Tender, Information, Scheme, Planning, Construction
-- Document Delivery - Mandatory - Prints, Shared Folder, WeTransfer, Email
-- PDF Output Sheet Size - A4 / A3
-- One-click <b>Update Register</b> - updates Excel and generates PDF register
+- DXF Import: Loads AutoCAD 2018 DXF (ASCII or Binary) via File > Open DXF (Ctrl+O)
+- Automated Block Inventory: Parses and counts all block insertions - e.g. 10,009 blocks from BLKEXPORT.dxf
+- Block Categorisation: Automatically splits blocks into 3 filtered tabs - Anonymous Blocks, Non-Attributed Blocks, and Attributed Blocks
+- Detailed Data Grid: Displays Handle, Insertion Coordinate, Drawing Space, Layout Name, Block Name, and Attribute Value for every insertion
+- Dual Export Options: One-click export via top buttons or File menu - Export to CSV (Full Block Schedule) and Export BOM to CSV (Consolidated Bill of Materials)
+- Integrity Summary & Validation: Shows Drawing name, Last Modified date, Total/Anonymous/Non-Attributed/Attributed counts, LUPREC precision, Anonymous blocks detected, and Integrity Status - PASS / FAIL verification
+- Context-Sensitive Help: Info icons with tooltips that define terms in-place, e.g. Non-Attributed = Blocks that do not contain attribute data
+- Application Metadata: About dialog (Help > About) showing designer, copyright, version 1.0, platform, registered owner/organisation, logo, and System Info
+- User Guide Access: Built-in help via Help > User Guide (Ctrl+H)
 
 ---
 [Back to top](#enterprise-project)

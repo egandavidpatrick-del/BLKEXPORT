@@ -132,7 +132,7 @@ Dialogs: About dialog for licensing/metadata and System Info for environment dia
 > Non-Attributed Blocks: Standard blocks with no ATTRIB data
 > Attributed Blocks: Blocks with associated attribute values
 - Integrity Engine: Calculates Total Blocks, verifies counts across tabs, reads header vars like LUPREC for coordinate precision, Last Modified, and sets Integrity Status: PASS/FAIL.
-- 
+  
 **3. Data / Parsing Layer**
   
 - DXF Parser Engine: Low-level ASCII/Binary DXF reader that reads HEADER, TABLES, BLOCKS, and ENTITIES sections. Extracts only INSERT entities.

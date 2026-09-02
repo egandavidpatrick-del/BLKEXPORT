@@ -101,7 +101,7 @@ This repository includes:
 
 | Component          | Technology                        | Responsibility                                     |
 | ------------------ | --------------------------------- | -------------------------------------------------- |
-| Operator client    | C# WinForms                       | Auto Document Issue Register Client application    |
+| Operator client    | C# WinForms                       | Blkexport Client application    |
 
 
 <h4>Integrated Development Environment</h4>
@@ -115,7 +115,7 @@ This repository includes:
 
 [Back to top](#enterprise-project)
 <a id="enola-architecture"></a>
-## 🏗️ Auto Document Issue Register Updater (Case Study – Proprietary Production Application) Architecture 
+## 🏗️ Blkexport (Case Study – Proprietary Production Application) Architecture 
 
 This is a standalone on-premises WinForms C# desktop application.
 

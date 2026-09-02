@@ -175,6 +175,7 @@ The Problem:
 Generating a Bill of Materials from CAD drawings is still a manual, error-prone process in most AEC companies. Drawings are plotted, symbols are counted by hand with a highlighter, and totals are entered into Excel. On large drawings - like the demo file with 10,009 blocks - this takes hours and introduces counting errors.
 
 The Solution - BLKEXPORT:
+
 BLKEXPORT replaces that manual workflow with a single desktop workflow.
 
 1. Load: User opens any AutoCAD 2018 DXF (ASCII or Binary).

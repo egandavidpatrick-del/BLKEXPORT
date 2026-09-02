@@ -54,7 +54,7 @@ Completing a Document Issue register typically is a time consuming, tedious and 
 [Back to top](#enterprise-project)
 <a id="platform-overview"></a>
 ## 🌐 Platform Overview
-The Auto Document Issue Register Updater was originally developed for the AEC (Architecture, Engineering & Construction) industry, where organisations commonly update and maintain document issue registers.
+The BLKEXPORT was originally developed for the AEC (Architecture, Engineering & Construction) industry, where organisations commonly create BOMs (Bill of Material) from their drawings.
 
 [Back to top](#enterprise-project)
 <a id="repository-contents"></a>

@@ -289,7 +289,7 @@ Applied to the demo file BLKEXPORT.dxf:
 
 **Output:**
 
-- Parsing: 10,009 blocks loaded and categorized in <3 seconds
+- Parsing: 10,009 blocks loaded and categorised in <3 seconds
    - Anonymous Blocks: 0
    - Non-Attributed Blocks: 10,000
    - Attributed Blocks: 9

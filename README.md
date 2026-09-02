@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/github/license/egandavidpatrick-del/saubon-synogen)
 ![Last Commit](https://img.shields.io/github/last-commit/egandavidpatrick-del/saubon-synogen)
 
-#  BLKEXPORT (Case Study – Proprietary Production Application)
+#  BLKEXPORT (Case Study – Custom Utility Application)
 
 BLKEXPORT is a proprietary C# WinForms application developed to automate
 Bill of Materials (BOM) generation from AutoCAD DXF drawings.
@@ -42,7 +42,7 @@ As BLKEXPORT was developed as a bespoke production development, its source code 
 
 Generating a BOM from CAD drawings is typically still a manual process — the drawings are plotted, symbols are counted by hand using a highlighter, and the totals are recorded in something like an Excel spreadsheet. This remains the standard practice in most companies today.
 
-# 🧭 BLKEXPORT (Case Study – Proprietary Production Application)
+# 🧭 BLKEXPORT (Case Study – Custom Utility Application)
 <i>BLKEXPORT allows the user to generate a BOM (Bill of Material) the quick and easy way.</i>
 <p align="left">
 <img src="/images/image1.png" width="100%" alt="Auto Document Issue Updater Main User Interface">
@@ -128,7 +128,7 @@ This repository includes:
 
 [Back to top](#enterprise-project)
 <a id="enola-architecture"></a>
-## 🏗️ BLKEXPORT (Case Study – Proprietary Production Application) Architecture 
+## 🏗️ BLKEXPORT (Case Study – Custom Utility Application) Architecture 
 
 <p align="left">
 <img src="/images/image7.png" width="100%" alt="BLKEXPORT Architecture">
@@ -166,7 +166,7 @@ Handle | Insertion Coordinate (X,Y,Z) | Drawing Space (Model/Paper) | Layout Nam
 
 [Back to top](#enterprise-project)
 <a id="screenshots-project-navigator--enola"></a>
-## 🖼️ Screenshots BLKEXPORT (Case Study – Proprietary Production Application)
+## 🖼️ Screenshots BLKEXPORT (Case Study – Custom Utility Application)
 
 <h3>BLKEXPORT - File Menu & Help Menu Options</h3>
 
@@ -317,6 +317,6 @@ Applied to the demo file BLKEXPORT.dxf:
 
 David Egan
 
-Sole Software Developer, Systems Designer, and Solutions Architect for the BLKEXPORT (Case Study – Proprietary Production Application)
+Sole Software Developer, Systems Designer, and Solutions Architect for the BLKEXPORT (Case Study – Custom Utility Application)
 
 <a href="https://www.linkedin.com/in/davidpatrickegan">LinkedIn</a> 

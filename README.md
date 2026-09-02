@@ -29,8 +29,7 @@ The production application was developed as a bespoke solution and its source co
 Completing a Document Issue register typically is a time consuming, tedious and error intensive task completed manually. This manual approach is how most organisations complete a Document Issue Register even today.
 
 # 🧭 BLKEXPORT (Case Study – Proprietary Production Application)
-
-<i>Auto Document Issue Register Updater allows the user to complete a Document Issue Register the quick and easy way.</i>
+<i>BLKEXPORT allows the user to generate a BOM (Bill of Material) the quick and easy way.</i>
 <p align="left">
 <img src="/images/image1.png" width=100%" alt="Auto Document Issue Updater Main User Interface">
 </p>

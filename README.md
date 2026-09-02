@@ -179,7 +179,7 @@ Handle | Insertion Coordinate (X,Y,Z) | Drawing Space (Model/Paper) | Layout Nam
   <img src="./images/image4.png" width="49%" alt="BLKEXPORT - File Menu Options">
   <img src="./images/image5.png" width="49%" alt="BLKEXPORT - Help Menu Options">
 </p>
-<h3>BLKEXPORT - Only One Instance of BLKEXPORT allow to operate</h3>
+<h3>BLKEXPORT - Only One Instance of BLKEXPORT allowed to operate</h3>
 <p align="left">
 <img src="/images/image6.png" width="99%" alt="BLKEXPORT - One Instance ">
 </p>

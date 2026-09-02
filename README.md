@@ -285,7 +285,7 @@ BLKEXPORT: Two standardized outputs - Full Block Schedule (CSV) for detailed che
 
 Applied to the demo file BLKEXPORT.dxf:
 
-**Input:** 1 x AutoCAD 2018 DXF (ASCII) - 10,009 block insertions, all BLOCK_07 in Model Space, LUPREC 4.
+**Input:** 1 x AutoCAD 2018 DXF (Binary) - 10,009 block insertions, all BLOCK_07 in Model Space, LUPREC 4.
 
 **Output:**
 

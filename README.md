@@ -171,18 +171,18 @@ Handle | Insertion Coordinate (X,Y,Z) | Drawing Space (Model/Paper) | Layout Nam
 [Back to top](#enterprise-project)
 ## 💡 Solution
 
-The application solves the manual, time-consuming, tedious and error-prone process of completing a Document Issue Register for AEC projects.
+The Problem:
+Generating a Bill of Materials from CAD drawings is still a manual, error-prone process in most AEC companies. Drawings are plotted, symbols are counted by hand with a highlighter, and totals are entered into Excel. On large drawings - like the demo file with 10,009 blocks - this takes hours and introduces counting errors.
 
-How it works:
+The Solution - BLKEXPORT:
+BLKEXPORT replaces that manual workflow with a single desktop workflow.
 
-1. User selects the master Excel register - Document Issue Register.xls or Document Issue Register.xlsx
-2. User points to a folder containing Mechanical or Electrical PDF drawings - app auto-detects [ 10 Drawing(s) ]
-3. User confirms Recipients List - Client, Architect, PM, QS, Contractors with initials
-4. User selects optional contract docs - Electrical / Mechanical Spec & Pricing with revision, plus supporting docs - Design Risk Assessment, Inspection Plan, BCAR Schedule
-4. User sets mandatory issue data - Issue Date, Issued For - Information, Delivery Method - WeTransfer, Sheet Size - A4
-6. Clicks <b>Update Register</b> - app automatically populates the Excel register with drawing names, revisions, recipients and generates the dated PDF Document Issue Register 02-09-26.pdf in the output directory
-
-Replaces manual copying of drawing names, dates and recipient details with an automated WinForms C# workflow that ensures consistency, accuracy and auditability across document issues.
+1. Load: User opens any AutoCAD 2018 DXF (ASCII or Binary).
+2. Parse & Categorise: The application automatically reads all INSERT entities, extracts Handle, Insertion Coordinate (with LUPREC precision), Drawing Space, Layout, Block Name and Attribute Value, and categorizes them as Anonymous, Non-Attributed, and Attributed.
+3. Validate: The Integrity Summary verifies total counts, flags anonymous blocks, and confirms Integrity Status: PASS — All block counts verified before any export.
+4. Export: One click generates either a full Block Schedule (Export to CSV) or a consolidated quantity take-off (Export BOM to CSV) ready for procurement or Excel.
+   
+Result: What previously took hours of manual highlighting and counting is completed in seconds, with 100% accuracy and a fully auditable CSV output.
 
 ---
 [Back to top](#enterprise-project)

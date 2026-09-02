@@ -27,7 +27,7 @@ As BLKEXPORT was developed as a bespoke production development, its source code 
 
 # The problem
 
-Generating a BOM form a CAD drawings is typically done by plotting the drawings, then using a highlighter to count the symbols in the drawing and noting the count on possibly something like an Excel spreadsheet. This is the current practice in most companies even today.
+Generating a BOM from CAD drawings is typically still a manual process — the drawings are plotted, symbols are counted by hand using a highlighter, and the totals are recorded in something like an Excel spreadsheet. This remains the standard practice in most companies today.
 
 # 🧭 BLKEXPORT (Case Study – Proprietary Production Application)
 <i>BLKEXPORT allows the user to generate a BOM (Bill of Material) the quick and easy way.</i>

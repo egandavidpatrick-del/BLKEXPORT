@@ -62,10 +62,10 @@ The BLKEXPORT was originally developed for the AEC (Architecture, Engineering & 
 ```text
 
 /guide/user-guide
-  Auto Document Issue Register Updater User Guide Version 1.0.(PDF)
+  Blkexport User Guide Version 1.0.(PDF)
 
 /images/
-  Auto Document Issue Register Updater screenshots
+  Blkexport screenshots
 
 ```
 
@@ -234,14 +234,14 @@ It enforces mandatory completion of Issued For, Document Delivery and Sheet Size
 - Developed and tested on Windows 11 Pro box.
 
 **Software Requirements**
-- Microsoft Office 365 is Installed on the users computer ensuring Microsoft Excel is installed.
+- Computer Aided Design CAD Application to generate DXF file.
 
 ---
 [Back to top](#enterprise-project)
 <a id="live-demo"></a>
 ## 🔴 Live Demo
 
-[Auto Document Issue Register Updater Demo](https://youtu.be/Vg66_TL9fbM)
+[Blkexport Demo](https://youtu.be/Ml7knu5_0QA)
 
 ---
 [Back to top](#enterprise-project)

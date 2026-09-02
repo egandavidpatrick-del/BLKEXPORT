@@ -11,6 +11,7 @@ BLKEXPORT is a bespoke C# WinForms desktop application developed to automate the
 The application demonstrates this approach by parsing an AutoCAD 2018 DXF (ASCII or Binary) file into a single, streamlined desktop workflow. Once loaded, it inventories all block insertions, validates data integrity, and categorizes them as Anonymous, Non-Attributed, or Attributed blocks.
 
 The user can then export two distinct CSV outputs:
+
 <b>1. Export to CSV</b> – Full Block Schedule with handle, insertion coordinate, drawing space, layout, block name and attribute data.
 <b>2. Export BOM to CSV</b> – Consolidated Bill of Materials.
 

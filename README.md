@@ -117,6 +117,29 @@ This repository includes:
 <a id="enola-architecture"></a>
 ## 🏗️ BLKEXPORT (Case Study – Proprietary Production Application) Architecture 
 
+''' text
+                WinForms UI
+                     │
+                     ▼
+             Application Services
+                     │
+          ┌──────────┴──────────┐
+          ▼                     ▼
+     DXF Processing        Validation
+          │                     │
+          └──────────┬──────────┘
+                     ▼
+                 Data Model
+                     │
+          ┌──────────┴──────────┐
+          ▼                     ▼
+     Block Schedule          BOM
+          │                     │
+          └──────────┬──────────┘
+                     ▼
+                 CSV Export
+'''
+
 BLKEXPORT is a standalone C# WinForms (.NET) desktop application built as a single-workflow pipeline: DXF In > Parse > Validate > Categorise > Export.
 
 **1. Presentation Layer (WinForms)**

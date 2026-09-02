@@ -114,8 +114,8 @@ This repository includes:
 
 | Component          | Technology                        | Responsibility                                     |
 | ------------------ | --------------------------------- | -------------------------------------------------- |
-| Operator client    | C# WinForms                       | BLKEXPORT Client application    |
-
+| Operator client    | C# WinForms                       | BLKEXPORT Client application                       |
+| netDxf             | C#                                | DXF file parsing and object model                  |
 
 <h4>Integrated Development Environment</h4>
 
@@ -130,28 +130,11 @@ This repository includes:
 <a id="enola-architecture"></a>
 ## 🏗️ BLKEXPORT (Case Study – Proprietary Production Application) Architecture 
 
-```text
-                WinForms UI
-                     │
-                     ▼
-             Application Services
-                     │
-          ┌──────────┴──────────┐
-          ▼                     ▼
-     DXF Processing        Validation
-          │                     │
-          └──────────┬──────────┘
-                     ▼
-                 Data Model
-                     │
-          ┌──────────┴──────────┐
-          ▼                     ▼
-     Block Schedule          BOM
-          │                     │
-          └──────────┬──────────┘
-                     ▼
-                 CSV Export
-```
+<i>BLKEXPORT Architectural Diagram DXF Model</i>
+<p align="left">
+<img src="/images/image7.png" width="100%" alt="BLKEXPORT Architecture">
+</p>
+ 
 
 BLKEXPORT is a standalone C# WinForms (.NET) desktop application built as a single-workflow pipeline: DXF In > Parse > Validate > Categorise > Export.
 

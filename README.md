@@ -6,17 +6,16 @@
 
 #  BLKEXPORT (Case Study – Proprietary Production Application)
 
-A bespoke **C# WinForms desktop application** developed to automate the preparation and completion of Document Issue Registers within the AEC (Architecture, Engineering & Construction) industry.
+BLKEXPORT is a bespoke C# WinForms desktop application developed to automate the generation of a Bill of Materials (BOM) from CAD drawings — a common but time-consuming workflow within the AEC (Architecture, Engineering & Construction) industry.
 
-Document Issue Registers are commonly maintained as bespoke Excel workbooks, with each organisation using its own structure, formatting, document requirements and issue workflows. This makes a universal solution impractical; however, where a defined register format and workflow are established, significant parts of the process can be automated.
+The application demonstrates this approach by parsing an AutoCAD 2018 DXF (ASCII or Binary) file into a single, streamlined desktop workflow. Once loaded, it inventories all block insertions, validates data integrity, and categorizes them as Anonymous, Non-Attributed, or Attributed blocks.
 
-The Auto Document Issue Register Updater demonstrates this approach by combining **PDF drawing discovery and validation, Excel register integration, document revision management, recipient management, issue controls and automated PDF generation** into a single desktop workflow.
-
-The application is designed to work alongside existing project documentation and file-system processes rather than requiring organisations to replace their established register format or introduce a new document-management platform.
+The user can then export two distinct CSV outputs:
+<b>1. Export to CSV</b> – Full Block Schedule with handle, insertion coordinate, drawing space, layout, block name and attribute data.
+<b>2. Export BOM to CSV</b> – Consolidated Bill of Materials.
 
 ### Repository Scope
-
-The production application was developed as a bespoke solution and its source code is therefore private. This repository provides the **technical documentation, application screenshots, architecture overview, user guide and video demonstration material** for the solution.
+As BLKEXPORT was developed as a bespoke production development, its source code remains private. This repository therefore provides the supporting materials for the solution, including technical documentation, architecture overview, application screenshots, user guide, and video demonstration.
 
 
 ## At a Glance
@@ -26,7 +25,7 @@ The production application was developed as a bespoke solution and its source co
 
 # The problem
 
-Completing a Document Issue register typically is a time consuming, tedious and error intensive task completed manually. This manual approach is how most organisations complete a Document Issue Register even today.
+Generating a BOM form a CAD drawings is typically done by plotting the drawings, then using a highlighter to count the symbols in the drawing and noting the count on possibly something like an Excel spreadsheet. This is the current practice in most companies even today.
 
 # 🧭 BLKEXPORT (Case Study – Proprietary Production Application)
 <i>BLKEXPORT allows the user to generate a BOM (Bill of Material) the quick and easy way.</i>

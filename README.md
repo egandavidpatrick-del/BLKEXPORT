@@ -204,7 +204,7 @@ Completing a Document Issue Register can be done by the following people:
 <a id="why-is-it-better-than-traditional-workflows"></a>
 ## 🚀 Why Is It Better Than Traditional Workflows?
 
-<b></b>Traditional Workflow:</b> Plot drawing > manually highlight and count each symbol > tally in Excel > hope you didn't miss one.
+<b>Traditional Workflow:</b> Plot drawing > manually highlight and count each symbol > tally in Excel > hope you didn't miss one.
 
 BLKEXPORT was built specifically to eliminate that.
 

@@ -45,7 +45,7 @@ Generating a BOM from CAD drawings is typically still a manual process — the d
 |:-----------:|:------------:|:------------:|:----------:|
 | 🌐 [Platform Overview](#platform-overview) | ✨ [Key Features](#key-features) | 📦 [Contents](#repository-contents) | 📊 [Results](#results) |
 | 💡 [Solution](#solution) | 🛠️ [Tech Stack](#tech-stack) | 📚 [Documentation](#documentation) | 🚦 [Project Status](#project-status) |
-| 👥 [Who Is It For](#who-is-it-for) |🏗️ [Blkexport Architecture](#enola-architecture) | 🖼️ [Screenshots](#screenshots-project-navigator--enola) | 👤 [Author](#author) |
+| 👥 [Who Is It For](#who-is-it-for) |🏗️ [BLKEXPORT Architecture](#enola-architecture) | 🖼️ [Screenshots](#screenshots-project-navigator--enola) | 👤 [Author](#author) |
 | 🚀 [Why It's Better](#why-is-it-better-than-traditional-workflows)  | ⚙️ [Infrastructure](#operational-infrastructure) | 🔴 [Live Demo](#live-demo) | |
  | | |
 
@@ -101,7 +101,7 @@ This repository includes:
 
 | Component          | Technology                        | Responsibility                                     |
 | ------------------ | --------------------------------- | -------------------------------------------------- |
-| Operator client    | C# WinForms                       | Blkexport Client application    |
+| Operator client    | C# WinForms                       | BLKEXPORT Client application    |
 
 
 <h4>Integrated Development Environment</h4>
@@ -115,7 +115,7 @@ This repository includes:
 
 [Back to top](#enterprise-project)
 <a id="enola-architecture"></a>
-## 🏗️ Blkexport (Case Study – Proprietary Production Application) Architecture 
+## 🏗️ BLKEXPORT (Case Study – Proprietary Production Application) Architecture 
 
 BLKEXPORT is a standalone C# WinForms (.NET) desktop application built as a single-workflow pipeline: DXF In > Parse > Validate > Categorise > Export.
 
@@ -149,15 +149,15 @@ Handle | Insertion Coordinate (X,Y,Z) | Drawing Space (Model/Paper) | Layout Nam
 
 [Back to top](#enterprise-project)
 <a id="screenshots-project-navigator--enola"></a>
-## 🖼️ Screenshots Auto Document Issue Register Updater (Case Study – Proprietary Production Application)
+## 🖼️ Screenshots BLKEXPORT (Case Study – Proprietary Production Application)
 
-<h3>Auto Document Issue Register Updater - File Menu & Help Menu Options</h3>
+<h3>BLKEXPORT - File Menu & Help Menu Options</h3>
 
 <p align="left">
   <img src="./images/image2.png" width="49%" alt="alt="Auto Document Issue Register  - File Menu Options">
   <img src="./images/image3.png" width="49%" alt="Auto Document Issue Register - Help Menu Options">
 </p>
-<h3>Auto Document Issue Register Updater - About Dialog & Interactive ToolTip help</h3>
+<h3>BLKEXPORT - About Dialog & Interactive ToolTip help</h3>
 <p align="left">
   <img src="./images/image4.png" width="49%" alt="alt="Auto Document Issue Register  - File Menu Options">
   <img src="./images/image5.png" width="49%" alt="Auto Document Issue Register - Help Menu Options">

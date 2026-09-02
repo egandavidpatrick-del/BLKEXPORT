@@ -128,9 +128,9 @@ Dialogs: About dialog for licensing/metadata and System Info for environment dia
 
 - Load Controller: Handles file selection, validates file type (AutoCAD 2018 DXF ASCII/Binary), and triggers the parsing engine.
 - Block Classification Service: Routes every INSERT entity into one of three collections:
-> Anonymous Blocks: *U / *D anonymous definitions
-> Non-Attributed Blocks: Standard blocks with no ATTRIB data
-> Attributed Blocks: Blocks with associated attribute values
+- Anonymous Blocks: *U / *D anonymous definitions
+- Non-Attributed Blocks: Standard blocks with no ATTRIB data
+- Attributed Blocks: Blocks with associated attribute values
 - Integrity Engine: Calculates Total Blocks, verifies counts across tabs, reads header vars like LUPREC for coordinate precision, Last Modified, and sets Integrity Status: PASS/FAIL.
   
 **3. Data / Parsing Layer**
@@ -139,7 +139,7 @@ Dialogs: About dialog for licensing/metadata and System Info for environment dia
 - Entity Model:
 Handle | Insertion Coordinate (X,Y,Z) | Drawing Space (Model/Paper) | Layout Name | Block Name | Attribute Value
 - LUPREC Handling: Uses the drawing's LUPREC (4 in the demo) to correctly format insertion coordinates.
-- 
+  
 **4. Export Layer**
   
 - Export to CSV Engine: Serializes the currently active tab or full data grid to a flat schedule - 1 row = 1 block insertion.

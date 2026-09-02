@@ -179,7 +179,7 @@ The Solution - BLKEXPORT:
 BLKEXPORT replaces that manual workflow with a single desktop workflow.
 
 1. Load: User opens any AutoCAD 2018 DXF (ASCII or Binary).
-2. Parse & Categorise: The application automatically reads all INSERT entities, extracts Handle, Insertion Coordinate (with LUPREC precision), Drawing Space, Layout, Block Name and Attribute Value, and categorizes them as Anonymous, Non-Attributed, and Attributed.
+2. Parse & Categorise: The application automatically reads all INSERT entities, extracts Handle, Insertion Coordinate (with LUPREC precision), Drawing Space, Layout, Block Name and Attribute Value, and categorises them as Anonymous, Non-Attributed, and Attributed.
 3. Validate: The Integrity Summary verifies total counts, flags anonymous blocks, and confirms Integrity Status: PASS — All block counts verified before any export.
 4. Export: One click generates either a full Block Schedule (Export to CSV) or a consolidated quantity take-off (Export BOM to CSV) ready for procurement or Excel.
    

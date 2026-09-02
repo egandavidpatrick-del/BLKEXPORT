@@ -296,6 +296,6 @@ Applied to the demo file BLKEXPORT.dxf:
 
 David Egan
 
-Sole Software Developer, Systems Designer, and Solutions Architect for the Auto Document Issue Register Updater (Case Study – Proprietary Production Application)
+Sole Software Developer, Systems Designer, and Solutions Architect for the BLKEXPORT (Case Study – Proprietary Production Application)
 
 <a href="https://www.linkedin.com/in/davidpatrickegan">LinkedIn</a> 

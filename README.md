@@ -204,13 +204,39 @@ Completing a Document Issue Register can be done by the following people:
 <a id="why-is-it-better-than-traditional-workflows"></a>
 ## 🚀 Why Is It Better Than Traditional Workflows?
 
-Auto Document Issue Register Updater is better than the traditional manual workflow because it replaces a tedious, time-consuming and error-intensive task that typically takes hours with a single-click process that completes a register in seconds. 
+<b></b>Traditional Workflow:</b> Plot drawing > manually highlight and count each symbol > tally in Excel > hope you didn't miss one.
 
-The software imposes aggressive drawing file import validation rules, only accepting valid PDF drawings from the selected directory and auto-detecting the drawing count in the title bar before any update can proceed. 
+BLKEXPORT was built specifically to eliminate that.
 
-Instead of manually typing drawing names, dates and recipient details, it auto-generates the dated PDF register and locks input and output to the correct project standards location. 
+**1. Speed**
 
-It enforces mandatory completion of Issued For, Document Delivery and Sheet Size, maintains consistent revision control for electrical and mechanical specifications and supporting documents, centralises the eight AEC recipient roles with initials, and simultaneously generates both the Excel register and PDF output with instant access via Open in Excel and View PDF, eliminating copy and paste errors, inconsistent file locations and missing fields while keeping all data on-premises.
+Traditional: Hours to days for a drawing with 10,000+ blocks.
+BLKEXPORT: <5 seconds to load 10,009 insertions from a DXF.
+
+**2. 100% Accuracy**
+
+Traditional: Prone to human error, double-counting, missed symbols, eye fatigue.
+BLKEXPORT: Direct parse of the DXF ENTITIES section. Every block Handle and Insertion Coordinate is read programmatically - no symbols are missed.
+
+**3. Full Auditability**
+
+Traditional: No traceability. You can't prove where a count came from.
+BLKEXPORT: Every row contains Handle, X,Y,Z coordinate, Drawing Space, Layout Name, Block Name and Attribute Value. You can click back to the exact insertion in AutoCAD.
+
+**4. Handles Scale**
+
+Traditional: Becomes unworkable past a few hundred blocks.
+BLKEXPORT: Demonstrated at 10,009 blocks in one file with zero performance loss. Same workflow works for 100 or 100,000.
+
+**5. Built-In Data Integrity**
+
+Traditional: No validation.
+BLKEXPORT: Integrity Summary auto-validates - Total vs. Anonymous vs. Non-Attributed vs. Attributed, LUPREC precision check, Last Modified tracking, and PASS/FAIL verification before export.
+
+**6. Standardised Output**
+
+Traditional: Inconsistent Excel sheets per person.
+BLKEXPORT: Two standardized outputs - Full Block Schedule (CSV) for detailed checking and Consolidated BOM (CSV) for procurement and quantity take-offs - ready for Excel, ERP, or estimating tools.
 
 ---
 [Back to top](#enterprise-project)

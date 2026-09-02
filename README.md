@@ -123,19 +123,25 @@ BLKEXPORT is a standalone C# WinForms (.NET) desktop application built as a sing
 - MainForm: Hosts the DXF path input, tabbed DataGridView (Anonymous / Non-Attributed / Attributed), Integrity Summary panel, and primary CTAs - -Export to CSV and Export BOM to CSV.
 - Menu System: File (Open, Export, Exit) and Help (About, User Guide) with keyboard shortcuts (Ctrl+O, Ctrl+E, Ctrl+B, Ctrl+X, Ctrl+A, Ctrl+H).
 Dialogs: About dialog for licensing/metadata and System Info for environment diagnostics.
+
 **2. Application / Business Logic Layer**
+
 - Load Controller: Handles file selection, validates file type (AutoCAD 2018 DXF ASCII/Binary), and triggers the parsing engine.
 - Block Classification Service: Routes every INSERT entity into one of three collections:
 > Anonymous Blocks: *U / *D anonymous definitions
 > Non-Attributed Blocks: Standard blocks with no ATTRIB data
 > Attributed Blocks: Blocks with associated attribute values
 - Integrity Engine: Calculates Total Blocks, verifies counts across tabs, reads header vars like LUPREC for coordinate precision, Last Modified, and sets Integrity Status: PASS/FAIL.
+- 
 **3. Data / Parsing Layer**
+  
 - DXF Parser Engine: Low-level ASCII/Binary DXF reader that reads HEADER, TABLES, BLOCKS, and ENTITIES sections. Extracts only INSERT entities.
 - Entity Model:
 Handle | Insertion Coordinate (X,Y,Z) | Drawing Space (Model/Paper) | Layout Name | Block Name | Attribute Value
 - LUPREC Handling: Uses the drawing's LUPREC (4 in the demo) to correctly format insertion coordinates.
+- 
 **4. Export Layer**
+  
 - Export to CSV Engine: Serializes the currently active tab or full data grid to a flat schedule - 1 row = 1 block insertion.
 - Export BOM to CSV Engine: Aggregates by Block Name + Attribute Value to generate a consolidated Bill of Materials with quantities.
 

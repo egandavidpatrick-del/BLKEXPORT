@@ -63,7 +63,7 @@ BLKEXPORT was originally developed for the AEC (Architecture, Engineering & Cons
 ```text
 
 /guide/user-guide
-  BLKEXPORT User Guide Version 1.0.(PDF)
+
 
 /images/
   BLKEXPORT screenshots

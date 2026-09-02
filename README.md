@@ -30,7 +30,7 @@ The user can then export two distinct CSV outputs:
 <b>2. Export BOM to CSV</b> – Consolidated Bill of Materials.
 
 ### Repository Scope
-As BLKEXPORT was developed as a bespoke production development, its source code remains private. This repository therefore provides the supporting materials for the solution, including technical documentation, architecture overview, application screenshots, user guide, and video demonstration.
+As BLKEXPORT was developed as a bespoke production development, its source code remains private. This repository therefore provides the supporting materials for the solution, including technical documentation, architecture overview, application screenshots, and video demonstration.
 
 
 ## At a Glance

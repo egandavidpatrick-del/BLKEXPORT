@@ -117,39 +117,27 @@ This repository includes:
 <a id="enola-architecture"></a>
 ## 🏗️ Blkexport (Case Study – Proprietary Production Application) Architecture 
 
-This is a standalone on-premises WinForms C# desktop application.
+BLKEXPORT is a standalone C# WinForms (.NET) desktop application built as a single-workflow pipeline: DXF In > Parse > Validate > Categorize > Export.
 
-**1. Presentation Layer - WinForms UI**
-
-- Single-form UI shown above hero image
-- Grouped panels: Register File, Register Directory, Drawings Directory, PDF Output, Recipients List, Contract Specs, Supporting Docs, Issued For, Delivery, Sheet Size
-- Browse dialogs, date picker 02-09-26, checkboxes with revision textboxes, radio groups, action buttons - Clear, Open, View, Update Register
-
-**2. File System Layer**
-
-- Input: Scans Mechanical or Electrical Drawings Directory Containing PDF Files - C:\...\Drawings PDF\P2\ - counts [ 10 Drawing(s) ]
-- Input: Reads P:\2019 Projects\19L233 Oaklands School Fire Alarm Installation\05_RESOURCES\01_Standards\
-- Output: Writes to Document Issue Register Output PDF Directory & Updates Excel Document Issue Register
-
-**3. Data Processing Layer**
-
-- Excel Interop: Opens Document Issue Register.xls, populates drawing list, revision, date, recipients, issued for, delivery
-- PDF Generation: Creates Document Issue Register 02-09-26.pdf - A4/A3 selectable
-- Revision Manager: Handles T1 / X revision values for 7 optional documents - Electrical/Mechanical Spec/Pricing + Design Risk Assessment, Inspection Plan, BCAR Schedule
-
-**4. Integration Layer**
-
-- Open Register in Excel - Process.Start Excel
-- Open Drawing Directory / Open Register Directory - File Explorer
-- View Register PDF - Default PDF viewer
-- No database - operates directly on file system and Excel
-
-**5. Deployment**
-
-- Built with Microsoft Visual Studio 2022
-- Packaged as x64 executable via Microsoft Visual Studio 2022 Installer Projects
-- Runs on Windows 11 Pro
-- All data stays local/on-prem user computer
+**1. Presentation Layer (WinForms)**
+- MainForm: Hosts the DXF path input, tabbed DataGridView (Anonymous / Non-Attributed / Attributed), Integrity Summary panel, and primary CTAs - -Export to CSV and Export BOM to CSV.
+- Menu System: File (Open, Export, Exit) and Help (About, User Guide) with keyboard shortcuts (Ctrl+O, Ctrl+E, Ctrl+B, Ctrl+X, Ctrl+A, Ctrl+H).
+Dialogs: About dialog for licensing/metadata and System Info for environment diagnostics.
+**2. Application / Business Logic Layer**
+- Load Controller: Handles file selection, validates file type (AutoCAD 2018 DXF ASCII/Binary), and triggers the parsing engine.
+- Block Classification Service: Routes every INSERT entity into one of three collections:
+> Anonymous Blocks: *U / *D anonymous definitions
+> Non-Attributed Blocks: Standard blocks with no ATTRIB data
+> Attributed Blocks: Blocks with associated attribute values
+- Integrity Engine: Calculates Total Blocks, verifies counts across tabs, reads header vars like LUPREC for coordinate precision, Last Modified, and sets Integrity Status: PASS/FAIL.
+**3. Data / Parsing Layer**
+- DXF Parser Engine: Low-level ASCII/Binary DXF reader that reads HEADER, TABLES, BLOCKS, and ENTITIES sections. Extracts only INSERT entities.
+- Entity Model:
+Handle | Insertion Coordinate (X,Y,Z) | Drawing Space (Model/Paper) | Layout Name | Block Name | Attribute Value
+- LUPREC Handling: Uses the drawing's LUPREC (4 in the demo) to correctly format insertion coordinates.
+**4. Export Layer**
+- Export to CSV Engine: Serializes the currently active tab or full data grid to a flat schedule - 1 row = 1 block insertion.
+- Export BOM to CSV Engine: Aggregates by Block Name + Attribute Value to generate a consolidated Bill of Materials with quantities.
 
 ---
 

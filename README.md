@@ -91,7 +91,7 @@ This repository includes:
 - Dual Export Options: One-click export via top buttons or File menu - Export to CSV (Full Block Schedule) and Export BOM to CSV (Consolidated Bill of Materials)
 - Integrity Summary & Validation: Shows Drawing name, Last Modified date, Total/Anonymous/Non-Attributed/Attributed counts, LUPREC precision, Anonymous blocks detected, and Integrity Status - PASS / FAIL verification
 - Context-Sensitive Help: Info icons with tooltips that define terms in-place, e.g. Non-Attributed = Blocks that do not contain attribute data
-- Application Metadata: About dialog (Help > About) showing designer, copyright, version 1.0, platform, registered owner/organisation, logo, and System Info
+- Application Metadata: About dialog (Help > About) showing designer, version 1.0, platform, operating system registered details and System Info
 - User Guide Access: Built-in help via Help > User Guide (Ctrl+H)
 
 ---

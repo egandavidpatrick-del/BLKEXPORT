@@ -13,6 +13,7 @@ The application demonstrates this approach by parsing an AutoCAD 2018 DXF (ASCII
 The user can then export two distinct CSV outputs:
 
 <b>1. Export to CSV</b> – Full Block Schedule with handle, insertion coordinate, drawing space, layout, block name and attribute data.
+
 <b>2. Export BOM to CSV</b> – Consolidated Bill of Materials.
 
 ### Repository Scope

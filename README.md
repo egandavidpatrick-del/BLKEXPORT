@@ -6,9 +6,22 @@
 
 #  BLKEXPORT (Case Study – Proprietary Production Application)
 
-BLKEXPORT is a bespoke C# WinForms desktop application developed to automate the generation of a Bill of Materials (BOM) from CAD drawings — a common but time-consuming workflow within the AEC (Architecture, Engineering & Construction) industry.
+BLKEXPORT is a proprietary C# WinForms application developed to automate
+Bill of Materials (BOM) generation from AutoCAD DXF drawings.
 
-The application demonstrates this approach by parsing an AutoCAD 2018 DXF (ASCII or Binary) file into a single, streamlined desktop workflow. Once loaded, it inventories all block insertions, validates data integrity, and categorises them as Anonymous, Non-Attributed, or Attributed blocks.
+The application identifies and extracts block references and their associated
+attributes, validates drawing data, and generates detailed block schedules and
+consolidated BOM exports.
+
+### DXF Processing
+
+BLKEXPORT uses the netDxf library to load and interpret ASCII and Binary DXF
+files, building additional application logic to identify, classify, validate,
+and export block information.
+
+netDxf provides the underlying DXF object model, while BLKEXPORT implements the
+domain-specific processing required to transform drawing data into structured
+schedules and Bills of Materials.
 
 The user can then export two distinct CSV outputs:
 

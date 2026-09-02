@@ -252,7 +252,7 @@ BLKEXPORT: Two standardized outputs - Full Block Schedule (CSV) for detailed che
 - Developed and tested on Windows 11 Pro box.
 
 **Software Requirements**
-- Computer Aided Design CAD Application to generate DXF file.
+- Computer Aided Design CAD Application required to generate DXF file.
 
 ---
 [Back to top](#enterprise-project)

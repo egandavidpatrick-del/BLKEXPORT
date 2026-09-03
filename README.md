@@ -43,7 +43,7 @@ The user can then export two distinct CSV outputs:
 Generating a BOM from CAD drawings is typically still a manual process — the drawings are plotted, symbols are counted by hand using a highlighter, and the totals are recorded in something like an Excel spreadsheet. This remains the standard practice in most companies today.
 
 # 🧭 BLKEXPORT (Case Study – Custom Utility Application)
-<i>BLKEXPORT allows the user to generate a BOM (Bill of Material) the quick and easy way.</i>
+<i>BLKEXPORT allows the user to generate a BOM (Bill of Material) from an AutoCAD DXF drawing the quick and easy way.</i>
 <p align="left">
 <img src="/images/image1.png" width="100%" alt="Auto Document Issue Updater Main User Interface">
 </p>

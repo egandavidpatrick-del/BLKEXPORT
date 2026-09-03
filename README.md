@@ -11,7 +11,7 @@ Bill of Materials (BOM) generation from AutoCAD DXF drawings.
 
 The application identifies and extracts block references and their associated
 attributes, validates drawing data, and generates detailed block schedules and
-consolidated BOM exports. Go to the table of contents and click the Live Demo Link for demo video.
+consolidated BOM exports. Go to the table of contents below and click the Live Demo Link for demo video.
 
 ### DXF Processing
 

@@ -6,7 +6,7 @@
 
 #  BLKEXPORT (Case Study – Custom Utility Application)
 
-### Go to the table of contents below and click the Live Demo Link for demo videos.
+### Go to the table of contents below and click the Live Demo Link for demo video.
 
 BLKEXPORT is a proprietary C# WinForms application developed to automate
 Bill of Materials (BOM) generation from AutoCAD DXF drawings.

@@ -315,6 +315,6 @@ David Egan
 
 Sole Software Developer, Systems Designer, and Solutions Architect for the BLKEXPORT (Case Study – Custom Utility Application)
 
-**Note:** BLKEXPORTr software is not commercially available.
+**Note:** BLKEXPORT software is not commercially available.
 
 <a href="https://www.linkedin.com/in/davidpatrickegan">LinkedIn</a> 

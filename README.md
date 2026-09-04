@@ -82,6 +82,8 @@ BLKEXPORT was originally developed for the AEC (Architecture, Engineering & Cons
   BLKEXPORT screenshots
 /test-dwg-sample/
   BLKEXPORT.dwg drawing file
+/test-dxf-sample/
+  BLKEXPORT.dxf dxf file
 ```
 
 ---

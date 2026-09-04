@@ -157,7 +157,7 @@ Handle | Insertion Coordinate (X,Y,Z) | Drawing Space (Model/Paper) | Layout Nam
   
 **4. Export Layer**
   
-- Export to CSV Engine: Serializes the currently active tab or full data grid to a flat schedule - 1 row = 1 block insertion.
+- Export to CSV Engine: Serialises the currently active tab or full data grid to a flat schedule - 1 row = 1 block insertion.
 - Export BOM to CSV Engine: Aggregates by Block Name + Attribute Value to generate a consolidated Bill of Materials with quantities.
 
 ---

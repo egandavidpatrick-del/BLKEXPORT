@@ -137,7 +137,7 @@ BLKEXPORT is a standalone C# WinForms (.NET) desktop application built as a sing
 **1. Presentation Layer (WinForms)**
 - MainForm: Hosts the DXF path input, tabbed DataGridView (Anonymous / Non-Attributed / Attributed), Integrity Summary panel, and primary CTAs - -Export to CSV and Export BOM to CSV.
 - Menu System: File (Open, Export, Exit) and Help (About, User Guide) with keyboard shortcuts (Ctrl+O, Ctrl+E, Ctrl+B, Ctrl+X, Ctrl+A, Ctrl+H).
-Dialogs: About dialog for licensing/metadata and System Info for environment diagnostics.
+Dialogs: About dialog for version, platform, operating system registration details and System Info.
 
 **2. Application / Business Logic Layer**
 

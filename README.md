@@ -66,6 +66,8 @@ Generating a BOM from CAD drawings is typically still a manual process — the d
 | 🚀 [Why It's Better](#why-is-it-better-than-traditional-workflows)  | ⚙️ [Infrastructure](#operational-infrastructure) | 🔴 [Live Demo](#live-demo) | |
  | | |
 
+---
+
 ## 🏗 Software Design Philosophy
 
 > **No AI. No fluff. Just engineering.**

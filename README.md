@@ -305,9 +305,9 @@ Applied to the demo file BLKEXPORT.dxf:
 **Output:**
 
 - Parsing: 10,009 blocks loaded and categorised in <3 seconds
-   - Anonymous Blocks: 0
-   - Non-Attributed Blocks: 10,000
-   - Attributed Blocks: 9
+   * Anonymous Blocks: 0
+   * Non-Attributed Blocks: 10,000
+   * Attributed Blocks: 9
 - Validation: Integrity Status PASS — All block counts verified, no anonymous blocks detected, last modified date tracked (28-08-2026)
 - Export:
    - Full Block Schedule CSV with Handle, Insertion Coordinate, Drawing Space, Layout, Block Name, Attribute Value

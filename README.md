@@ -108,6 +108,7 @@ BLKEXPORT was originally developed for the AEC (Architecture, Engineering & Cons
 
 This repository includes:
 
+* User Guide
 * Application Screenshots
 ---
 [Back to top](#enterprise-project)

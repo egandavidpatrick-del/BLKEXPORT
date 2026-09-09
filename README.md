@@ -229,14 +229,14 @@ Result: What previously took hours of manual highlighting and counting is comple
 <a id="who-is-it-for"></a>
 ## 👥 Who Is It For?
 
-Completing a Document Issue Register can be done by the following people:
+Completing a BOM is typically done by the following people:
 
 * Architects
 * Engineers
 * BIM Coordinators
 * BIM Technicians
 * CAD Technicians
-* Document Controllers
+
 
 ---
 [Back to top](#enterprise-project)

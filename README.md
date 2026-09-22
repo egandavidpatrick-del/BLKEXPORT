@@ -288,7 +288,7 @@ BLKEXPORT: Two standardized outputs - Full Block Schedule (CSV) for detailed che
 
 **Development and Test Environment**
 
-- Developed and tested on Windows 11 Pro box.
+- Developed and tested on Windows 11 Pro x64-bit computer.
 
 **Software Requirements**
 - Computer Aided Design CAD Application required to generate AutoCAD 2018 (Binary ASCII) DXF file.

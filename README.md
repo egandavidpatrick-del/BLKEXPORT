@@ -5,7 +5,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/egandavidpatrick-del/saubon-synogen)
 
 ## BLKEXPORT User Guide
-* [01. BLKEXPORT User Guide](https://github.com/egandavidpatrick-del/BLKEXPORT/blob/9b07bd3a0fb7350549f0fb9060871e6f58c9d9fa/guide/user-guide/BLKEXPORT%20USER%20GUIDE%20VERSION%201.0.pdf)
+* [01. BLKEXPORT User Guide](guide/user-guide/BLKEXPORT%20USER%20GUIDE%20VERSION%201.0.pdf)
 
 
 #  BLKEXPORT (Case Study – Custom Utility Application)

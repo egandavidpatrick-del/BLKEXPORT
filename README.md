@@ -196,7 +196,7 @@ Handle | Insertion Coordinate (X,Y,Z) | Drawing Space (Model/Paper) | Layout Nam
   <img src="./images/image2.png" width="49%" alt="BLKEXPORT - File Menu Options">
   <img src="./images/image3.png" width="49%" alt="BLKEXPORT - Help Menu Options">
 </p>
-<h3>BLKEXPORT - About Dialog & Interactive ToolTip help</h3>
+<h3>BLKEXPORT - About Dialog & Interactive Tooltip help</h3>
 <p align="left">
   <img src="./images/image4.png" width="49%" alt="BLKEXPORT - File Menu Options">
   <img src="./images/image5.png" width="49%" alt="BLKEXPORT - Help Menu Options">

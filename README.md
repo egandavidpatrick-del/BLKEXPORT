@@ -10,8 +10,6 @@
 
 #  BLKEXPORT (Case Study – Custom Utility Application)
 
-## Go to the table of contents below and click the Live Demo Link for demo video.
-
 ## The BLKEXPORT software is not commercially available.
 
 BLKEXPORT is a proprietary C# WinForms application developed to automate
@@ -297,9 +295,6 @@ BLKEXPORT: Two standardized outputs - Full Block Schedule (CSV) for detailed che
 [Back to top](#enterprise-project)
 <a id="live-demo"></a>
 ## 🔴 Live Demo
-
-[BLKEXPORT Demo](https://youtu.be/dDyAPnEuNDQ)
-
 ---
 [Back to top](#enterprise-project)
 <a id="results"></a>

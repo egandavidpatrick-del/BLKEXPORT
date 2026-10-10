@@ -298,7 +298,7 @@ BLKEXPORT: Two standardized outputs - Full Block Schedule (CSV) for detailed che
 <a id="live-demo"></a>
 ## 🔴 Live Demo
 
-[BLKEXPORT Demo](https://youtu.be/Sz7tbWnwulk)
+[BLKEXPORT DWG to BOM the quick and easy way... Demo](https://youtu.be/Sz7tbWnwulk)
 
 ---
 [Back to top](#enterprise-project)

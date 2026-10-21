@@ -10,7 +10,7 @@
 
 #  BLKEXPORT (Case Study – Custom Utility Application)
 
-## BLKEXPORT software may not operate reliably where CAD workflows are of the heterogeneous kind. This software demonstrates what can be achieved.
+## BLKEXPORT software may not operate reliably where CAD workflows are of the heterogeneous kind. This software example demonstrates what can be achieved.
 
 ## The BLKEXPORT software is not commercially available.
 

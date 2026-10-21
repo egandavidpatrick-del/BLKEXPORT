@@ -12,8 +12,6 @@
 
 ## BLKEXPORT software may not operate reliably or accurately where CAD workflows are of the heterogeneous kind. BLKEXPORT isn't a commercial product, but rather a proof-of-concept highlighting the type of unique automation that can be achieved.
 
-## The BLKEXPORT software is not commercially available.
-
 ## Scroll down to the table of contents and select the Live Demo link to view demo video.
 
 BLKEXPORT is a proprietary C# WinForms application developed to automate

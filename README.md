@@ -12,6 +12,8 @@
 
 ## The BLKEXPORT software is not commercially available.
 
+## Scroll down to the table of contents and select the Live Demo link to view demo video.
+
 BLKEXPORT is a proprietary C# WinForms application developed to automate
 Bill of Materials (BOM) generation from AutoCAD DXF drawings.
 

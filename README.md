@@ -228,7 +228,7 @@ BLKEXPORT replaces that manual workflow with a single desktop workflow.
 3. Validate: The Integrity Summary verifies total counts, flags anonymous blocks, and confirms Integrity Status: PASS — All block counts verified before any export.
 4. Export: One click generates either a full Block Schedule (Export to CSV) or a consolidated quantity take-off (Export BOM to CSV) ready for procurement or Excel.
    
-Result: What previously took hours of manual highlighting and counting is completed in seconds, with 100% accuracy and a fully auditable CSV output.
+Result: What previously took hours of manual highlighting and counting is completed in seconds, and a fully auditable CSV output.
 
 ---
 [Back to top](#enterprise-project)

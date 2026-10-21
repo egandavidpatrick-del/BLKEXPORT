@@ -298,7 +298,7 @@ BLKEXPORT: Two standardized outputs - Full Block Schedule (CSV) for detailed che
 <a id="live-demo"></a>
 ## 🔴 Live Demo
 
-[DWG to BOM the quick and easy way Demo Video](https://youtu.be/8pD8-4cDKWk)
+[DWG(DXF) to BOM the quick and easy way Demo Video](https://youtu.be/8pD8-4cDKWk)
 
 ---
 [Back to top](#enterprise-project)

@@ -281,7 +281,7 @@ BLKEXPORT: Integrity Summary auto-validates - Total vs. Anonymous vs. Non-Attrib
 **6. Standardised Output**
 
 Traditional: Inconsistent Excel sheets per person.
-BLKEXPORT: Two standardized outputs - Full Block Schedule (CSV) for detailed checking and Consolidated BOM (CSV) for procurement and quantity take-offs - ready for Excel, ERP, or estimating tools.
+BLKEXPORT: Two standardised outputs - Full Block Schedule (CSV) for detailed checking and Consolidated BOM (CSV) for procurement and quantity take-offs - ready for Excel, ERP, or estimating tools.
 
 ---
 [Back to top](#enterprise-project)
